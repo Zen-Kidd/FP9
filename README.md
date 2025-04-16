@@ -1,7 +1,7 @@
 # FP9 .env Tutorial
 Friday Project 9 by Ian Neely
 
-This program is an AI-powered GUI that allows users to submit a prompt and receive an output in return. The user can enter use the AI model as many times as they'd like as long as they provide their *OWN API KEY* in the ".env" file.
+This program is an AI-powered GUI that allows users to submit a prompt and receive an output in return. The user can enter prompts and use the AI model as many times as they'd like as long as they provide their *OWN API KEY* in the ".env" file.
 
 *Before launching the python file*, locate the .env file. Upon opening the file, you will see:
 __OPENAI_API_KEY=__
