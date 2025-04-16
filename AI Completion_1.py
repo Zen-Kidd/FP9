@@ -1,3 +1,5 @@
+import tkinter as tk
+from tkinter import scrolledtext
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
@@ -26,6 +28,12 @@ response = client.chat.completions.create(
     ]
 )
 
+# Create the main window
+root = tk.Tk()
+root.title("ChatGPT API GUI")
+
+# Start the Tkinter event loop
+root.mainloop()
+
 # Print the chat completion's response text
 print(response.choices[0].message.content)
-
